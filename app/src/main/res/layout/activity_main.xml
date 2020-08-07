@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/Maps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/Forces"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:layout_marginTop="30dp"
+        android:text="Maps" />
+
+    <Button
+        android:id="@+id/Location_Search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:layout_below="@+id/Maps"
+        android:layout_marginTop="30dp"
+        android:text="Location Search" />
+
+    <Button
+        android:id="@+id/Forces"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/Favorites"
+        android:layout_marginTop="30dp"
+        android:text="Forces" />
+
+    <Button
+        android:id="@+id/Favorites"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:layout_marginTop="173dp"
+        android:text="Favorites" />
+</RelativeLayout>
